@@ -855,7 +855,7 @@ if __name__ == '__main__':
     try:
       for file in os.listdir("/content/drive/MyDrive/input"):
         try:   
-          read_file="/content/input/"
+          read_file="/content/drive/MyDrive/input/"
           write_file="out_txt/"
           main(read_file,file,write_file)
           print(count)
