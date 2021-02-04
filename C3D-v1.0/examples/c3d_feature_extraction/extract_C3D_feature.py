@@ -666,7 +666,7 @@ def main(file_path,video_file,save):
 
     # where feature csv file will be saved --
     # where the video is (by default), or second argument
-    c3d_feature_outdir = '/contentout'
+    c3d_feature_outdir = '/content/out'
 
     # feature to extract
     feature_layer = 'fc6-1'
