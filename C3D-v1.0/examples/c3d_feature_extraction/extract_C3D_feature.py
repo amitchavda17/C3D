@@ -851,6 +851,7 @@ if __name__ == '__main__':
         count=count+1
       except:
         continue
+    
     try:
       for file in os.listdir("/content/drive/MyDrive/input"):
         try:   
@@ -861,5 +862,7 @@ if __name__ == '__main__':
           count=count+1
         except:
           continue
+    
     except:
-        continue        
+      print('no input folder in drive')
+            
